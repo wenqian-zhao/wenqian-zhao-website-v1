@@ -44,8 +44,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Wenqian\'s Resume',
+  description: "Resume of Wenqian Zhao",
 };
 
 /**
@@ -72,12 +72,12 @@ export const heroData: Hero = {
   name: `I'm Wenqian Zhao.`,
   description: (
     <>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a <strong className="text-stone-100">Data Scientist</strong> from China, currently pursuing Bachelor degree 
-        at <strong className="text-stone-100">University of California, San Diego</strong> major in  
-        <strong className="text-stone-100"> Data Science</strong>.
+      <p className="prose-sm text-orange-100 sm:prose-base lg:prose-lg">
+        I'm a <strong className="text-orange-100">Data Scientist</strong> from China, currently pursuing Bachelor degree 
+        at <strong className="text-orange-100">University of California, San Diego</strong> major in  
+        <strong className="text-orange-100"> Data Science</strong>.
       </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+      <p className="prose-sm text-orange-100 sm:prose-base lg:prose-lg">
         Outside my enthusiam in Data Science and Machine learning, I am a huge fan of music and sport.
         I have been playing cello for 13 years, bass for 7 years, and tennis for 16 years. I think having a 
         balance of interests, like music and sports, makes for a well-rounded person, 
