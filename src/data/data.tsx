@@ -69,7 +69,7 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Wenqian Zhao.`,
+  name: `Hi, I'm Wenqian Zhao.`,
   description: (
     <>
       <p className="prose-sm text-orange-100 sm:prose-base lg:prose-lg">
@@ -78,10 +78,11 @@ export const heroData: Hero = {
         <strong className="text-orange-100"> Data Science</strong>.
       </p>
       <p className="prose-sm text-orange-100 sm:prose-base lg:prose-lg">
-        Outside my enthusiam in Data Science and Machine learning, I am a huge fan of music and sport.
-        I have been playing cello for 13 years, bass for 7 years, and tennis for 16 years. I think having a 
-        balance of interests, like music and sports, makes for a well-rounded person, 
-        and I try to bring that balance to my studies as well.
+        Outside coding, I love milk tea, music, and sport. Always find me at <strong className="text-orange-100">WushiLand</strong> and random
+        <strong className="text-orange-100"> funk </strong> concerts (I love <strong className="text-orange-100"> Vulfpeck</strong>). Now waiting 
+        for the upcoming Formula-1 season, <strong className="text-orange-100"> let's go Alfa Romeo & Zhou </strong>!
+        
+
       </p>
     </>
   ),
