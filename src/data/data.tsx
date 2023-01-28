@@ -80,7 +80,7 @@ export const heroData: Hero = {
       <p className="prose-sm text-orange-100 sm:prose-base lg:prose-lg">
         Outside coding, I love milk tea, music, and sport. Always find me at <strong className="text-orange-100">WushiLand</strong> and random
         <strong className="text-orange-100"> funk </strong> concerts (I love <strong className="text-orange-100"> Vulfpeck</strong>). Now waiting 
-        for the upcoming Formula-1 season, <strong className="text-orange-100"> let's go Alfa Romeo & Zhou </strong>!
+        for the 2023 Formula-1 season, <strong className="text-orange-100"> let's go Alfa Romeo & Zhou </strong>!
         
 
       </p>
