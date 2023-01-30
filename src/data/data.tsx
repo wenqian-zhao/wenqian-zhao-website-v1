@@ -26,7 +26,7 @@ import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
 // import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 // import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
-import testimonialImage from '../images/testimonial.png';
+import testimonialImage from '../images/testimonial.webp';
 import {
   About,
   ContactSection,
@@ -88,7 +88,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '../assets/resume.pdf',
+      href: '../public/resume.pdf',
       text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
@@ -109,11 +109,7 @@ export const aboutData: About = {
   description: `As a data science student at the University of California, San Diego,
    I am driven to understand and utilize the power of data to make a difference. 
    My major in data science has sparked a deep interest in machine learning and artificial intelligence.
-    Alongside my academic pursuits, I am also a dedicated musician and athlete. 
-    
-    
-    
-    With 13 
+    Alongside my academic pursuits, I am also a dedicated musician and athlete. With 13 
     years of experience playing cello and 7 years playing bass, music has been a fundamental 
     part of my life. Similarly, tennis has been a passion of mine for 16 years, providing me with a 
     balance of discipline and competition. My diverse interests and experiences have helped shape me 
