@@ -59,7 +59,7 @@ export const SectionId = {
   Resume: 'resume',
   Skills: 'skills',
   Stats: 'stats',
-  Testimonials: 'testimonials',
+  Testimonials: 'Motto',
 } as const;
 
 export type SectionId = typeof SectionId[keyof typeof SectionId];
@@ -88,7 +88,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '../public/resume.pdf',
+      href: 'assets/resume.pdf',
       text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
@@ -348,11 +348,11 @@ parametric/non-parametric models.
 export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
-    // {
-    //   name: 'John Doe',
-    //   text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-    //   image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
-    // },
+    {
+      name: 'Steve Jobs',
+      text: 'You can\'t connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in your future. You have to trust in something - your gut, destiny, life, karma, whatever. This approach has never let me down, and it has made all the difference in my life.',
+      image: 'https://imageio.forbes.com/specials-images/imageserve/5b8576db31358e0429c734e3/0x0.jpg?format=jpg&crop=2170,2172,x211,y900,safe&height=416&width=416&fit=bounds',
+    },
     // {
     //   name: 'Jane Doe',
     //   text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
