@@ -27,6 +27,7 @@ import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
 // import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
+import peinan from '../images/peinan.png';
 import {
   About,
   ContactSection,
@@ -349,15 +350,16 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
+      name: 'Peinan Li',
+      text: 'Everyone told me to retire. Everyone told me to give up. But...look at me now',
+      image: peinan,
+    },
+    {
       name: 'Steve Jobs',
       text: 'You can\'t connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in your future. You have to trust in something - your gut, destiny, life, karma, whatever. This approach has never let me down, and it has made all the difference in my life.',
       image: 'https://imageio.forbes.com/specials-images/imageserve/5b8576db31358e0429c734e3/0x0.jpg?format=jpg&crop=2170,2172,x211,y900,safe&height=416&width=416&fit=bounds',
     },
-    // {
-    //   name: 'Jane Doe',
-    //   text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-    //   image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
-    // },
+    
     {
       name: '"Imagine" by John Winston Lennon',
       text: 'Imagine all the people living in peace. You may say I\'m a dreamer, but I\'m not the only one. I hope someday you\'ll join us, and the world will be as one.',
