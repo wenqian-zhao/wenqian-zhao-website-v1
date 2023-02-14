@@ -27,7 +27,6 @@ import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
 // import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
-import peinan from '../images/peinan.png';
 import {
   About,
   ContactSection,
@@ -349,11 +348,11 @@ parametric/non-parametric models.
 export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
-    {
-      name: 'Peinan Li',
-      text: 'Everyone told me to retire. Everyone told me to give up. But...look at me now',
-      image: peinan,
-    },
+    // {
+    //   name: 'Peinan Li',
+    //   text: 'Everyone told me to retire. Everyone told me to give up. But...look at me now',
+    //   image: '../src/images/peinan.png',
+    // },
     {
       name: 'Steve Jobs',
       text: 'You can\'t connect the dots looking forward; you can only connect them looking backwards. So you have to trust that the dots will somehow connect in your future. You have to trust in something - your gut, destiny, life, karma, whatever. This approach has never let me down, and it has made all the difference in my life.',
