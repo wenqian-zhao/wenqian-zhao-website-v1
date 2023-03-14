@@ -73,14 +73,16 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-orange-100 sm:prose-base lg:prose-lg">
+            
         I'm a <strong className="text-orange-100">Data Scientist</strong> from China, currently pursuing Bachelor degree 
         at <strong className="text-orange-100">University of California, San Diego</strong> major in  
-        <strong className="text-orange-100"> Data Science</strong>.
+        <strong className="text-orange-100"> Data Science</strong>. As a firm believer in the power of data-driven 
+        solutions, I am dedicated to using my skills and knowledge to create positive societal impact.
       </p>
       <p className="prose-sm text-orange-100 sm:prose-base lg:prose-lg">
         Outside coding, I love milk tea, music, and sport. Always find me at <strong className="text-orange-100">WushiLand</strong> and random
-        <strong className="text-orange-100"> funk </strong> concerts (I love <strong className="text-orange-100"> Vulfpeck</strong>). Now waiting 
-        for the 2023 Formula-1 season, <strong className="text-orange-100"> let's go Alfa Romeo & Zhou </strong>!
+        <strong className="text-orange-100"> funk </strong> concerts (I LOVE <strong className="text-orange-100"> Vulfpeck</strong>). Now eyes on 
+        2023 Formula-1 season, <strong className="text-orange-100"> let's go Alfa Romeo & Zhou </strong>!
         
 
       </p>
@@ -108,8 +110,9 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `As a data science student at the University of California, San Diego,
    I am driven to understand and utilize the power of data to make a difference. 
-   My major in data science has sparked a deep interest in machine learning and artificial intelligence.
-    Alongside my academic pursuits, I am also a dedicated musician and athlete. With 13 
+   My passion for data science stems from a deep desire to explore the untapped potential of information and leverage it to 
+   bring about meaningful change. I am committed to staying up-to-date with the latest developments in the field 
+   and applying cutting-edge technologies to solve real-world problems.    Alongside my academic pursuits, I am also a dedicated musician and athlete. With 13 
     years of experience playing cello and 7 years playing bass, music has been a fundamental 
     part of my life. Similarly, tennis has been a passion of mine for 16 years, providing me with a 
     balance of discipline and competition. My diverse interests and experiences have helped shape me 
@@ -288,7 +291,7 @@ export const education: TimelineItem[] = [
   },
   {
     date: 'September 2019 - Present',
-    location: 'UCSA @ La Jolla, CA',
+    location: 'UCSD @ La Jolla, CA',
     title: 'Undergraduate - Data Science',
     content: <p>My experience at UCSD has been focused on acquiring 
        knowledge and skills in foundational data science
@@ -296,6 +299,14 @@ export const education: TimelineItem[] = [
        coursework and projects, I also gained proficiency in using tools and libraries such as 
        Pandas, Numpy, Scikit-learn, Pytorch, Keras and others. Additionally, I have developed my critical 
        thinking and problem-solving skills. 
+    </p>,
+  },
+  {
+    date: 'September 2023 - March 2025',
+    location: 'UW @ Seattle, WA',
+    title: 'Graduate - Data Science',
+    content: <p>
+      Now looking forward to continuing my data science studies in the DSMS program at UW-Seattle.
     </p>,
   },
 ];
