@@ -74,7 +74,8 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-orange-100 sm:prose-base lg:prose-lg">
             
-        I'm a <strong className="text-orange-100">Data Scientist</strong> from China, currently pursuing Bachelor degree 
+        I'm a <strong className="text-orange-100">Data Scientist</strong> from China, I just finished my undergraduate 
+        study at UCSD and will continue my study 
         at <strong className="text-orange-100">University of California, San Diego</strong> major in  
         <strong className="text-orange-100"> Data Science</strong>. As a firm believer in the power of data-driven 
         solutions, I am dedicated to using my skills and knowledge to create positive societal impact.
@@ -90,7 +91,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: 'assets/resume.pdf',
+      href: '../assets/resume.pdf',
       text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
@@ -303,10 +304,10 @@ export const education: TimelineItem[] = [
   },
   {
     date: 'September 2023 - March 2025',
-    location: 'UW @ Seattle, WA',
+    location: 'UCSD @ La Jolla, CA',
     title: 'Graduate - Data Science',
     content: <p>
-      Now looking forward to continuing my data science studies in the DSMS program at UW-Seattle.
+      Now looking forward to continuing my data science studies in the DSMS program at UCSD.
     </p>,
   },
 ];
